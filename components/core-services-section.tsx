@@ -27,7 +27,7 @@ const services = [
     ],
   },
   {
-    icon: Bone,
+    icon: Activity,
     title: "Spinal Cord Injuries",
     description:
       "Specialized management and rehabilitation programs for spinal cord injury patients to maximize recovery and independence.",
@@ -38,7 +38,7 @@ const services = [
     ],
   },
   {
-    icon: Activity,
+    icon: Brain,
     title: "Guillain-Barré Syndrome",
     description:
       "Expert care for GBS patients with customized rehabilitation plans for optimal recovery and strength building.",
@@ -49,7 +49,7 @@ const services = [
     ],
   },
   {
-    icon: Heart,
+    icon: Bone,
     title: "Orthopedic Recovery",
     description:
       "Advanced post-operative care for joint replacements, fractures, and musculoskeletal conditions.",
@@ -60,7 +60,7 @@ const services = [
     ],
   },
   {
-    icon: Ribbon,
+    icon: Heart,
     title: "Cardiac Rehabilitation",
     description:
       "Evidence-based recovery programs for post-surgical cardiac patients and heart health optimization.",
@@ -71,7 +71,7 @@ const services = [
     ],
   },
   {
-    icon: Home,
+    icon: Activity,
     title: "Oncology Physiotherapy",
     description:
       "Compassionate care focusing on mobility, fatigue management, and quality of life for cancer patients.",

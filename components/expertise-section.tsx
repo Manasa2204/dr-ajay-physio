@@ -2,7 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Brain, Bone, Heart, Activity, CheckCircle2 } from "lucide-react";
+import { Brain, Bone, Heart, Pill, CheckCircle2 } from "lucide-react";
 
 const expertiseData = [
   {
@@ -42,13 +42,11 @@ const expertiseData = [
     ],
   },
   {
-    icon: Activity,
+    icon: Pill,
     title: "Oncology Rehabilitation",
     description:
       "Specialized physiotherapy support for cancer patients to maintain function and quality of life.",
-    items: [
-      "Physiotherapy support for cancer patients as required",
-    ],
+    items: ["Physiotherapy support for cancer patients as required"],
   },
 ];
 
