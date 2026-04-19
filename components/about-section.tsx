@@ -5,12 +5,11 @@ import { useRef } from "react";
 import { GraduationCap, MapPin, Briefcase, Award } from "lucide-react";
 
 const certifications = [
-  "NDT Bobath",
   "Kinesio Taping",
-  "Mulligan",
-  "PNF",
+  "Mulligan Manipulation",
   "Fascia Manipulation",
-  "Dry Needling",
+  "Proprioceptive Neuromuscular Facilitation (PNF)",
+  "Neurodevelopmental Treatment (NDT) / Bobath Concept",
 ];
 
 export function AboutSection() {
@@ -93,20 +92,22 @@ export function AboutSection() {
 
             <div className="hidden lg:block space-y-4 text-[#4a6fa5] leading-relaxed">
               <p>
-                With over 10 years of experience in physiotherapy, Dr. Ajay
-                Krishna Mantrarajam has established himself as a leading expert
-                in neurological and orthopedic rehabilitation in Andhra Pradesh.
+                Dr. Ajay Krishna Mantrarajam is an experienced and dedicated
+                physiotherapist specializing in comprehensive rehabilitation
+                care. With over a decade of clinical experience across leading
+                hospitals, he has expertise in neurorehabilitation, orthopedic
+                recovery, and cardiopulmonary rehabilitation.
               </p>
               <p>
-                Having worked with premier healthcare institutions including
-                Continental Hospitals and Citizens Hospitals in Hyderabad, he
-                brings a wealth of experience in managing complex cases ranging
-                from stroke rehabilitation to post-cardiac surgery recovery.
+                Dr. Ajay follows a multidisciplinary and evidence-based
+                approach, focusing on individualized rehabilitation plans,
+                functional recovery and mobility improvement, pain management
+                and long-term wellness, and patient education and preventive
+                care.
               </p>
               <p>
-                His patient-centered approach, combined with advanced manual
-                therapy techniques, has helped over 5,000 patients regain their
-                mobility and return to an active, fulfilling life.
+                He is committed to delivering patient-centered care focused on
+                restoring function, mobility, and quality of life.
               </p>
             </div>
           </motion.div>

@@ -9,67 +9,45 @@ const expertiseData = [
     icon: Brain,
     title: "Neurorehabilitation",
     description:
-      "Comprehensive care for Road Traffic Accident (RTA) and Traumatic Brain Injury (TBI) cases with advanced rehabilitation protocols.",
+      "Comprehensive rehabilitation for neurological conditions including stroke, traumatic injuries, and vestibular disorders.",
     items: [
-      "RTA Cases",
-      "TBI Cases",
-      "Stroke Rehabilitation",
-      "Vestibular Rehabilitation",
-    ],
-  },
-  {
-    icon: Activity,
-    title: "Spinal Cord Injuries",
-    description:
-      "Specialized management and rehabilitation programs for spinal cord injury patients to maximize recovery and independence.",
-    items: [
-      "Complete & Incomplete Injuries",
-      "Functional Training",
-      "Mobility Restoration",
-    ],
-  },
-  {
-    icon: Brain,
-    title: "Guillain-Barré Syndrome",
-    description:
-      "Expert care for GBS patients with customized rehabilitation plans for optimal recovery and strength building.",
-    items: [
-      "Acute Phase Management",
-      "Progressive Rehabilitation",
-      "Strength Training",
+      "Road Traffic Accident (RTA) cases",
+      "Traumatic Brain Injury (TBI)",
+      "Stroke rehabilitation",
+      "Vestibular rehabilitation",
+      "Spinal Cord Injury management",
+      "Guillain-Barré Syndrome (GBS)",
     ],
   },
   {
     icon: Bone,
-    title: "Orthopedic Recovery",
+    title: "Orthopedic Rehabilitation",
     description:
-      "Advanced post-operative care for TKR, THR, and complex fractures with Mulligan and Fascia manipulation techniques.",
+      "Advanced post-operative care and recovery for musculoskeletal injuries and joint replacements.",
     items: [
-      "Total Knee Replacement",
-      "Total Hip Replacement",
-      "Complex Fractures",
+      "Post-operative rehabilitation (fractures, ligament injuries, meniscus tears)",
+      "Avascular Necrosis (AVN)",
+      "Total Knee Replacement (TKR)",
+      "Total Hip Replacement (THR)",
     ],
   },
   {
     icon: Heart,
-    title: "Cardiac Rehabilitation",
+    title: "Cardiopulmonary Rehabilitation",
     description:
-      "Evidence-based recovery programs for Post-CABG cardiac patients ensuring safe and effective return to daily activities.",
+      "Evidence-based recovery programs for cardiac and pulmonary conditions to restore function and health.",
     items: [
-      "Post-CABG Recovery",
-      "Heart Health Programs",
-      "Functional Restoration",
+      "Post-Coronary Artery Bypass Grafting (CABG)",
+      "Other cardiac and pulmonary recovery cases",
     ],
   },
   {
     icon: Activity,
-    title: "Oncology Physiotherapy",
+    title: "Oncology Rehabilitation",
     description:
-      "Targeted physiotherapy support for cancer patients focusing on maintaining function and quality of life.",
+      "Specialized physiotherapy support for cancer patients to maintain function and quality of life.",
     items: [
-      "Pre & Post Surgery Care",
-      "Fatigue Management",
-      "Mobility Support",
+      "Physiotherapy support for cancer patients as required",
     ],
   },
 ];

@@ -7,33 +7,34 @@ const timeline = [
   {
     year: "Present",
     role: "Chief Physiotherapist & Head",
-    org: "Reyowel Rehabilitation, Vizag & Srikakulam",
+    org: "Reyowel Rehabilitation and Transitional Care, Visakhapatnam & Srikakulam",
     description:
-      "Leading comprehensive rehabilitation services for patients with neurological, orthopedic, and cardiopulmonary conditions.",
+      "Leading comprehensive rehabilitation services across multiple locations, specializing in transitional care and patient-centered recovery.",
     current: true,
     tag: "Current",
   },
   {
-    year: "2019 - 2021",
+    year: "2018 - 2019",
     role: "Senior Physiotherapist",
-    org: "Citizens Hospitals, Hyderabad",
+    org: "Citizens Hospitals, Nalagandla, Hyderabad",
     description:
-      "Specialized in intensive care rehabilitation and complex orthopedic recovery programs.",
+      "Managed complex rehabilitation cases with focus on advanced physiotherapy techniques and patient outcomes.",
     current: false,
   },
   {
-    year: "2016 - 2019",
+    year: "2016 - 2018",
     role: "Clinical Physiotherapist",
-    org: "Continental Hospitals, Hyderabad",
+    org: "Continental Hospitals, Nanakramguda, Hyderabad",
     description:
-      "Focused on neurological rehabilitation including stroke and traumatic brain injury cases.",
+      "Provided specialized care in neurorehabilitation, orthopedic recovery, and cardiopulmonary rehabilitation.",
     current: false,
   },
   {
     year: "2014 - 2016",
-    role: "Junior Physiotherapist",
-    org: "Apollo DRDO Hospitals",
-    description: "Foundation training in multi-specialty physiotherapy care.",
+    role: "Physiotherapist",
+    org: "Kamineni Hospitals, LB Nagar, Hyderabad",
+    description:
+      "Built foundation in clinical physiotherapy with exposure to diverse patient cases and rehabilitation protocols.",
     current: false,
   },
 ];
