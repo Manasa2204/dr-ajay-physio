@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import Link from "next/link";
 
 export function Navigation() {
   const [scrolled, setScrolled] = useState(false);
@@ -30,28 +31,28 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto flex justify-between items-center bg-white/90 backdrop-blur-md border border-[#d4e4ff] rounded-2xl px-8 py-3 shadow-sm">
         <a
           href="#"
-          className="text-xl font-bold bg-gradient-to-r from-[#0066cc] to-[#1e88e5] bg-clip-text text-transparent"
+          className="text-sm font-bold bg-gradient-to-r from-[#0066cc] to-[#1e88e5] bg-clip-text text-transparent "
         >
-          DR. AJAY KRISHNA
+          DR. AJAY KRISHNA MANTRARAJAM
         </a>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.slice(0, 3).map((link) => (
-            <a
+            <Link
               key={link.href}
               href={link.href}
               className="text-sm font-semibold tracking-wider uppercase text-[#0d3b66] hover:text-[#0066cc] transition-colors"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
-          <a
+          <Link
             href="#contact"
             className="bg-[#0066cc] text-white px-5 py-2 rounded-full text-sm font-semibold tracking-wider uppercase hover:bg-[#0052a3] transition-colors"
           >
             Book Now
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -74,24 +75,27 @@ export function Navigation() {
             transition={{ duration: 0.3 }}
             className="md:hidden mx-6 mt-2 bg-white/95 backdrop-blur-lg border border-[#d4e4ff] rounded-2xl overflow-hidden"
           >
-            <div className="px-6 py-4 flex flex-col gap-4">
+            <div
+              className="px-6 py-4 flex flex-col gap-4"
+              onClick={() => setMobileOpen(false)}
+            >
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.href}
                   href={link.href}
                   onClick={() => setTimeout(() => setMobileOpen(false), 100)}
                   className="text-sm font-semibold tracking-wide uppercase text-[#0d3b66] hover:text-[#0066cc] transition-colors py-2"
                 >
                   {link.label}
-                </a>
+                </Link>
               ))}
-              <a
+              <Link
                 href="#contact"
                 onClick={() => setTimeout(() => setMobileOpen(false), 100)}
                 className="bg-[#0066cc] text-white px-5 py-3 rounded-xl text-sm font-semibold tracking-wide uppercase text-center hover:bg-[#0052a3] transition-colors"
               >
                 Book Now
-              </a>
+              </Link>
             </div>
           </motion.div>
         )}
