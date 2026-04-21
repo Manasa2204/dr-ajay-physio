@@ -29,10 +29,7 @@ export function Navigation() {
       className="fixed w-full z-50 px-6 py-4"
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center bg-white/90 backdrop-blur-md border border-[#d4e4ff] rounded-2xl px-8 py-3 shadow-sm">
-        <a
-          href="#"
-          className="text-sm font-bold bg-gradient-to-r from-[#0066cc] to-[#1e88e5] bg-clip-text text-transparent "
-        >
+        <a href="#" className="text-base font-bold text-black ">
           DR. AJAY KRISHNA MANTRARAJAM
         </a>
 
